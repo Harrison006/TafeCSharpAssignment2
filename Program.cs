@@ -75,7 +75,7 @@ namespace WorkFromHomeCalc_Harrison
                 string hoursWorked = " ";
                 List<string> LessHoursDays = new List<string>();
                 List<string> MoreHoursDays = new List<string>();
-                foreach(string day in days) //looop through days
+                foreach(string day in days) //loop through days
                 {
                     Console.Write($"\nEnter Hours worked on {day} >>> ");
                     hours = int.Parse(Console.ReadLine());
