@@ -57,19 +57,14 @@ namespace WorkFromHomeCalc_Harrison
                 }
         }
         private static void EnterDailyHours()
-        {
-            //throw new Notimplementedexception();
-            //Making week var
+        { //throw new Notimplementedexception() Making week var
             int cWeek;
             Console.Write("Enter Current week number >>> ");
-            cWeek=int.Parse(Console.ReadLine());
-            //employee id
+            cWeek=int.Parse(Console.ReadLine()); //employee id
             int[] employeeID = new int[7];
-            string[] employeename = new string [7];
-            //making the arrays
+            string[] employeename = new string [7]; //making the arrays
             string[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
-            int lessThirty =  0, moreForty = 0, sufficientThirties = 0;
-            //loop id
+            int lessThirty =  0, moreForty = 0, sufficientThirties = 0; //loop id
             for(int i=0;i<2;i++) //the loop
             {
                 Console.Write("\nEnter employee id >>> ");
@@ -85,8 +80,7 @@ namespace WorkFromHomeCalc_Harrison
                     Console.Write($"\nEnter Hours worked on {day} >>> ");
                     hours = int.Parse(Console.ReadLine());
                     hoursWorked = hoursWorked + hours + " ";
-                    totalhours = totalhours + hours;
-                    //check if hours are less than 4 or more than 10
+                    totalhours = totalhours + hours; //check if hours are less than 4 or more than 10
                     if (hours<4)
                     {
                         LessHoursDays.Add(day);
@@ -95,8 +89,7 @@ namespace WorkFromHomeCalc_Harrison
                     {
                         MoreHoursDays.Add(day);
                     }
-                } //end loop
-                //display a summary
+                } //end loop display a summary
                 Console.WriteLine("***************************");
                 Console.WriteLine($"Summary For employee ID : {employeeID[i]} ");
                 Console.WriteLine($"Employee Name : {employeename[i].ToUpper()}");
@@ -117,8 +110,7 @@ namespace WorkFromHomeCalc_Harrison
                     {
                         Console.Write($"{day} ");
                     }
-                }
-                //display total and check ints
+                } //display total and check ints
                 Console.Write($"\nTotal Hours Worked For the Week {cWeek} : {totalhours} Hours");
                 if(totalhours<30)
                 {
@@ -134,12 +126,10 @@ namespace WorkFromHomeCalc_Harrison
                 {
                     Console.Write("\n You did a nice amount of work for the week Gj");
                     sufficientThirties++;
-                }
-                //write to file
+                }             //write to file
                 string line = $"Week {cWeek}, {employeeID[i]}, {employeename[i]}, {hoursWorked}\n";
                 File.AppendAllText(fileName, line);
-            }//end loop
-            //displaying the report
+            }//end loop and displaying the report
             Console.WriteLine("\n*************************************************************************");
             Console.WriteLine("                             Weekly Employee Report                        ");
             Console.WriteLine($"Total Employees worked less than 30 hours : {lessThirty}");
