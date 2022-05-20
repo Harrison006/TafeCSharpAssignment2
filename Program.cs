@@ -3,9 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-
 namespace WorkFromHomeCalc_Harrison
-
 {
     class Program
     {
@@ -14,7 +12,6 @@ namespace WorkFromHomeCalc_Harrison
         {
             /* giving a choice 
             for the user */
-
             int ch;
             //displaying a menu until a choice is made
             do
@@ -22,7 +19,6 @@ namespace WorkFromHomeCalc_Harrison
                 Console.WriteLine("\n1. Enter Daily hours worked\n2. Produce hours worked report\n3. Exit");
                 Console.Write("Enter your choice >>> ");
                 ch = int.Parse(Console.ReadLine());
-
                 //choice 1
                 if(ch==1)
                 {
@@ -58,7 +54,6 @@ namespace WorkFromHomeCalc_Harrison
                 foreach(string line in lines.Take(records))
                 {
                     Console.WriteLine(line);
-
                 }
         }
         private static void EnterDailyHours()
@@ -81,7 +76,6 @@ namespace WorkFromHomeCalc_Harrison
                 employeeID[i] = int.Parse(Console.ReadLine());
                 Console.Write("\nEnter employee name >>> ");
                 employeename[i] = Console.ReadLine();
-
                 int hours = 0, totalhours = 0;
                 string hoursWorked = " ";
                 List<string> LessHoursDays = new List<string>();
@@ -105,12 +99,12 @@ namespace WorkFromHomeCalc_Harrison
                 //display a summary
                 Console.WriteLine("***************************");
                 Console.WriteLine($"Summary For employee ID : {employeeID[i]} ");
-                Console.WriteLine($"Emlpoyee Name : {employeename[i].ToUpper()}");
+                Console.WriteLine($"Employee Name : {employeename[i].ToUpper()}");
                 /* CHeck if the less hours days list
                 and more hours days lists are >0*/
                 if(LessHoursDays.Count>0)
                 {
-                    Console.Write(" *** You didnt work enough on : ");
+                    Console.Write(" *** You didn't work enough on : ");
                     foreach (string day in LessHoursDays)
                     {
                         Console.Write($"{day} ");
@@ -128,12 +122,12 @@ namespace WorkFromHomeCalc_Harrison
                 Console.Write($"\nTotal Hours Worked For the Week {cWeek} : {totalhours} Hours");
                 if(totalhours<30)
                 {
-                    Console.Write("\n*** You Didnt Work Enough ***");
+                    Console.Write("\n*** You didn't Work Enough ***");
                     lessThirty++;
                 }
                 else if(totalhours>40)
                 {
-                    Console.Write("\n Take a break your working alot");
+                    Console.Write("\n Take a break your working a lot");
                     moreForty++;
                 }
                 else
@@ -145,7 +139,7 @@ namespace WorkFromHomeCalc_Harrison
                 string line = $"Week {cWeek}, {employeeID[i]}, {employeename[i]}, {hoursWorked}\n";
                 File.AppendAllText(fileName, line);
             }//end loop
-            //displaying the repor
+            //displaying the report
             Console.WriteLine("\n*************************************************************************");
             Console.WriteLine("                             Weekly Employee Report                        ");
             Console.WriteLine($"Total Employees worked less than 30 hours : {lessThirty}");
