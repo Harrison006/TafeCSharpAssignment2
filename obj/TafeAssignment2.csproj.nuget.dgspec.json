@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bosto\\Documents\\GitHub\\TafeAssignment2\\TafeAssignment2.csproj": {}
+    "X:\\AAA Personal\\Harrison\\TafeAssignment2\\TafeAssignment2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bosto\\Documents\\GitHub\\TafeAssignment2\\TafeAssignment2.csproj": {
+    "X:\\AAA Personal\\Harrison\\TafeAssignment2\\TafeAssignment2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bosto\\Documents\\GitHub\\TafeAssignment2\\TafeAssignment2.csproj",
+        "projectUniqueName": "X:\\AAA Personal\\Harrison\\TafeAssignment2\\TafeAssignment2.csproj",
         "projectName": "TafeAssignment2",
-        "projectPath": "C:\\Users\\bosto\\Documents\\GitHub\\TafeAssignment2\\TafeAssignment2.csproj",
-        "packagesPath": "C:\\Users\\bosto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bosto\\Documents\\GitHub\\TafeAssignment2\\obj\\",
+        "projectPath": "X:\\AAA Personal\\Harrison\\TafeAssignment2\\TafeAssignment2.csproj",
+        "packagesPath": "C:\\Users\\Harrison\\.nuget\\packages\\",
+        "outputPath": "X:\\AAA Personal\\Harrison\\TafeAssignment2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\bosto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Harrison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

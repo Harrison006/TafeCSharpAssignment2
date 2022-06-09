@@ -13,3 +13,18 @@ C:\Users\bosto\Documents\GitHub\TafeAssignment2\obj\Debug\net6.0\refint\TafeAssi
 C:\Users\bosto\Documents\GitHub\TafeAssignment2\obj\Debug\net6.0\TafeAssignment2.pdb
 C:\Users\bosto\Documents\GitHub\TafeAssignment2\obj\Debug\net6.0\TafeAssignment2.genruntimeconfig.cache
 C:\Users\bosto\Documents\GitHub\TafeAssignment2\obj\Debug\net6.0\ref\TafeAssignment2.dll
+X:\AAA Personal\Harrison\TafeAssignment2\bin\Debug\net6.0\TafeAssignment2.exe
+X:\AAA Personal\Harrison\TafeAssignment2\bin\Debug\net6.0\TafeAssignment2.deps.json
+X:\AAA Personal\Harrison\TafeAssignment2\bin\Debug\net6.0\TafeAssignment2.runtimeconfig.json
+X:\AAA Personal\Harrison\TafeAssignment2\bin\Debug\net6.0\TafeAssignment2.dll
+X:\AAA Personal\Harrison\TafeAssignment2\bin\Debug\net6.0\TafeAssignment2.pdb
+X:\AAA Personal\Harrison\TafeAssignment2\obj\Debug\net6.0\TafeAssignment2.csproj.AssemblyReference.cache
+X:\AAA Personal\Harrison\TafeAssignment2\obj\Debug\net6.0\TafeAssignment2.GeneratedMSBuildEditorConfig.editorconfig
+X:\AAA Personal\Harrison\TafeAssignment2\obj\Debug\net6.0\TafeAssignment2.AssemblyInfoInputs.cache
+X:\AAA Personal\Harrison\TafeAssignment2\obj\Debug\net6.0\TafeAssignment2.AssemblyInfo.cs
+X:\AAA Personal\Harrison\TafeAssignment2\obj\Debug\net6.0\TafeAssignment2.csproj.CoreCompileInputs.cache
+X:\AAA Personal\Harrison\TafeAssignment2\obj\Debug\net6.0\TafeAssignment2.dll
+X:\AAA Personal\Harrison\TafeAssignment2\obj\Debug\net6.0\refint\TafeAssignment2.dll
+X:\AAA Personal\Harrison\TafeAssignment2\obj\Debug\net6.0\TafeAssignment2.pdb
+X:\AAA Personal\Harrison\TafeAssignment2\obj\Debug\net6.0\TafeAssignment2.genruntimeconfig.cache
+X:\AAA Personal\Harrison\TafeAssignment2\obj\Debug\net6.0\ref\TafeAssignment2.dll
