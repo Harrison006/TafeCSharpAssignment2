@@ -37,7 +37,7 @@ namespace WorkFromHomeCalc_Harrison
                 //if user puts in wrong number
                 if(ch!=1 || ch!=2 || ch!=3)
                 {
-                    Console.WriteLine("Wrong Choice Choose again Fool!: ");
+                    Console.WriteLine("Wrong Choice Choose again Fool!: \n1. Enter Daily hours worked\n2. Produce hours worked report\n3. Exit");
                     ch=int.Parse(Console.ReadLine());
                 }
             } while (ch != 3);
