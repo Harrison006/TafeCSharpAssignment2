@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "X:\\AAA Personal\\Harrison\\TafeAssignment2\\TafeAssignment2.csproj": {}
+    "H:\\code\\TafeAssignment2\\TafeAssignment2.csproj": {}
   },
   "projects": {
-    "X:\\AAA Personal\\Harrison\\TafeAssignment2\\TafeAssignment2.csproj": {
+    "H:\\code\\TafeAssignment2\\TafeAssignment2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "X:\\AAA Personal\\Harrison\\TafeAssignment2\\TafeAssignment2.csproj",
+        "projectUniqueName": "H:\\code\\TafeAssignment2\\TafeAssignment2.csproj",
         "projectName": "TafeAssignment2",
-        "projectPath": "X:\\AAA Personal\\Harrison\\TafeAssignment2\\TafeAssignment2.csproj",
+        "projectPath": "H:\\code\\TafeAssignment2\\TafeAssignment2.csproj",
         "packagesPath": "C:\\Users\\Harrison\\.nuget\\packages\\",
-        "outputPath": "X:\\AAA Personal\\Harrison\\TafeAssignment2\\obj\\",
+        "outputPath": "H:\\code\\TafeAssignment2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
